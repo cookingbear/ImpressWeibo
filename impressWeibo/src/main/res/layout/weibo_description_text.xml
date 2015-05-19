@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="start|top"
+    android:orientation="horizontal" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/xin"
+        android:id="@+id/xin"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang"
+        android:text="@string/lang"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wei"
+        android:text="@string/wei"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bo"
+        android:id="@+id/bo"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/di"
+        android:text="@string/di"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/san"
+        android:text="@string/san"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fang"
+        android:text="@string/fang"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/white"/>
+            
+    
+
+</LinearLayout>

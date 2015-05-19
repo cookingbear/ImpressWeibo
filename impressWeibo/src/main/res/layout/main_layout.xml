@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <View 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_page"/>
+    <View 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:id="@+id/main_view"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <FrameLayout android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_title"
+        android:id="@+id/main_title"
+        android:layout_gravity="start|bottom"/>         
+    </FrameLayout> 
+     <include layout="@layout/weibo_description_text"/>
+
+     <TextView android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:gravity="center|bottom"
+        android:textSize="15sp"
+        android:text="@string/self_introduction"
+        android:id="@+id/main_button_id3"
+        android:layout_marginBottom="@dimen/intro_bottom_height"/>
+    </LinearLayout>       
+
+</FrameLayout>
